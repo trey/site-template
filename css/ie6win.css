@@ -1,4 +1,5 @@
-/* --- DOUBLE-FLOAT MARGIN BUG --- */
-.left, .right {
-	display: inline;
-} 
+/* Double-Float Margin Bug
+---------------------------*/
+.left,
+.right
+{ display: inline; } 

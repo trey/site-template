@@ -1,5 +1,4 @@
-/* --- "HAS LAYOUT" --- */
-.floatclear {
-/*	position: relative; */
-	height: 1%;
-}
+/* "Has Layout"
+----------------*/
+#selector
+{ height: 1%; }

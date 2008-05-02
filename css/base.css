@@ -37,6 +37,7 @@ body
 .right { float: right; }
 .left { float: left; }
 .clear { clear: both; }
+#main:after,
 #primary:after,
 #secondary:after,
 .primary:after,

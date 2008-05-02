@@ -1,4 +1,7 @@
 /* "Has Layout"
 ----------------*/
-#selector
+#primary,
+#secondary,
+.primary,
+.secondary
 { height: 1%; }

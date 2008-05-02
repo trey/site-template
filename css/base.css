@@ -1,35 +1,35 @@
-body {
+body
+{
 	padding-bottom: 40px; /* Let the footer breathe. */
 }
-#wrapper {
+#wrapper
+{
 }
 
-/* --- HEADER --- */
-#header {
+#header
+{
 }
 
-/* --- MAIN NAVIGATION ---*/
-
-/* --- "SMART" NAVIGATION --- */
-
-/* --- MAIN CONTENT --- */
-#main {
+#main
+{
 }
-	/* Add back some basics defaults to the main content area. */
-	#main #primary p,
-	#main #primary ul,
-	#main #primary ol { margin: 10px 0; }
-	#main #primary li { margin-left: 20px; }
-	#main #primary ul li { list-style: disc; }
-	#main #primary ol li { list-style: decimal; }
-	#main #primary blockquote {
-		padding-left: 15px;
-		border-left: 2px solid #ccc;
-		color: #666;
-	}
 
-/* --- FOOTER --- */
-#footer {
+/* Add back some basics defaults to the main content area. */
+#main #primary p,
+#main #primary ul,
+#main #primary ol { margin: 10px 0; }
+#main #primary li { margin-left: 20px; }
+#main #primary ul li { list-style: disc; }
+#main #primary ol li { list-style: decimal; }
+#main #primary blockquote
+{
+	padding-left: 15px;
+	border-left: 2px solid #ccc;
+	color: #666;
+}
+
+#footer
+{
 }
 
 /* --- GENERAL THINGS --- */
@@ -37,28 +37,15 @@ body {
 .right { float: right; }
 .left { float: left; }
 .clear { clear: both; }
-.floatclear:after {
+#primary:after,
+#secondary:after,
+.primary:after,
+.secondary:after,
+.floatclear:after
+{
 	content: ".";
 	display: block;
 	height: 0;
 	clear: both;
 	visibility: hidden;
-}
-
-/* --- IDENTITY & COPYRIGHT --- */
-#copyright {
-	font-style: italic;
-}
-#sra a {
-	padding: 0 2px;
-	background: #fff;
-	color: #000;
-	font-weight: bold;
-	text-transform: lowercase;
-}
-#sra a:hover {
-	background: #FEC51C;
-}
-#sra span {
-	color: red;
 }

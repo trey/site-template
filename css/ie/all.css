@@ -4,5 +4,6 @@
 #primary,
 #secondary,
 .primary,
-.secondary
+.secondary,
+.floatclear
 { height: 1%; }

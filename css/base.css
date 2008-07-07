@@ -35,13 +35,14 @@ body
 /* ------------------------------------------------------------------------- */
 /* ----------------- Body Copy Style for Main Content Area ----------------- */
 /* ------------------------------------------------------------------------- */
-#main #primary p,
-#main #primary ul,
-#main #primary ol { margin: 10px 0; }
-#main #primary li { margin-left: 20px; }
-#main #primary ul li { list-style: disc; }
-#main #primary ol li { list-style: decimal; }
-#main #primary blockquote
+#primary p { line-height: 1.4em; }
+#primary p,
+#primary ul,
+#primary ol { margin: 10px 0; }
+#primary li { margin-left: 20px; }
+#primary ul li { list-style: disc; }
+#primary ol li { list-style: decimal; }
+#primary blockquote
 {
 	padding-left: 15px;
 	border-left: 2px solid #ccc;

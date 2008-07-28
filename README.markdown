@@ -6,7 +6,6 @@ Folder structure:
 
 	.
 	|-- css
-	|   |-- base.css
 	|   |-- ie
 	|   |   |-- 5mac.css
 	|   |   |-- 5win.css
@@ -15,13 +14,18 @@ Folder structure:
 	|   |-- img
 	|   |   |-- blt
 	|   |   `-- btn
+	|   |-- base.css
+	|   |-- html5.css
 	|   `-- reset.css
 	|-- img
 	|-- js
 	|   |-- base.js
-	|   |-- jquery-1.2.3.pack.js
+	|   |-- jquery-1.2.5.pack.js
 	|   `-- jquery.toggleval.js
-	|-- html.html
-	|-- html_lean.html
+	|-- .htaccess
+	|-- html4.html
+	|-- html4_lean.html
+	|-- html5.html
+	|-- robots.txt
 	|-- xhtml.html
 	`-- xhtml_full.html

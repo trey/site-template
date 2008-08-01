@@ -20,8 +20,8 @@ Folder structure:
 	|   |   |   |-- reset.sass
 	|   |   |   `-- shortcuts.sass
 	|   |   |-- site
-	|   |   |    |-- colors.sass
-	|   |   |    `-- main.sass
+	|   |   |   |-- colors.sass
+	|   |   |   `-- main.sass
 	|   |   `-- screen.sass
 	|   |-- html5.css
 	|   `-- screen.css

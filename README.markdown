@@ -14,14 +14,21 @@ Folder structure:
 	|   |-- img
 	|   |   |-- blt
 	|   |   `-- btn
-	|   |-- base.css
+	|   |-- sass
+	|   |   |-- base
+	|   |   |   |-- copy.sass
+	|   |   |   |-- reset.sass
+	|   |   |   `-- shortcuts.sass
+	|   |   |-- site
+	|   |   |    |-- colors.sass
+	|   |   |    `-- main.sass
+	|   |   `-- screen.sass
 	|   |-- html5.css
-	|   `-- reset.css
+	|   `-- screen.css
 	|-- img
 	|-- js
 	|   |-- base.js
 	|   `-- jquery.toggleval.js
-	|-- .htaccess
 	|-- html4.html
 	|-- html4_lean.html
 	|-- html5.html

@@ -20,7 +20,6 @@ Folder structure:
 	|-- img
 	|-- js
 	|   |-- base.js
-	|   |-- jquery-1.2.5.pack.js
 	|   `-- jquery.toggleval.js
 	|-- .htaccess
 	|-- html4.html

@@ -2,6 +2,8 @@ This is a basic site template that I use as a starting place on new project as I
 
 No back-end stuff.  This is just a starting place for Markup, CSS, and JavaScript.
 
+You have a choice of using Sass or regular CSS.  If you want to use Sass, modify the files in the `/css/sass/` folder, which generates the `/css/screen.css` file.  If you want to use regular CSS, you can delete the `/Sass/` folder and keep `reset.css` and `base.css`.
+
 Folder structure:
 
 	.
@@ -23,11 +25,13 @@ Folder structure:
 	|   |   |   |-- colors.sass
 	|   |   |   `-- main.sass
 	|   |   `-- screen.sass
+	|   |-- base.css
 	|   |-- html5.css
+	|   |-- reset.css
 	|   `-- screen.css
 	|-- img
 	|-- js
-	|   |-- base.js
+	|   |-- load.js
 	|   `-- jquery.toggleval.js
 	|-- html4.html
 	|-- html4_lean.html

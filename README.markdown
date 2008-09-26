@@ -2,7 +2,7 @@ This is a basic site template that I use as a starting place on new project as I
 
 No back-end stuff.  This is just a starting place for Markup, CSS, and JavaScript.
 
-You have a choice of using Sass or regular CSS.  If you want to use Sass, modify the files in the `/css/sass/` folder, which generates the `/css/screen.css` file.  If you want to use regular CSS, you can delete the `/Sass/` folder and keep `reset.css` and `base.css`.
+You have a choice of using Sass or regular CSS.  If you want to use Sass, modify the files in the `/css/sass/` folder, which generates the `/css/screen.css` file.  If you want to use regular CSS, you can delete the `/css/sass/` folder and keep `reset.css` and `base.css`.
 
 Folder structure:
 

@@ -28,6 +28,15 @@ body {
 /* ------------------------------------- */
 /* Body Copy Style for Main Content Area */
 /* ------------------------------------- */
+#primary h1,
+#primary h2,
+#primary h3,
+#primary h4,
+#primary h5,
+#primary h6 {
+	margin: 0 0 20px;
+	font-size: 20px;
+}
 #primary p { line-height: 1.4em; }
 #primary p,
 #primary ul,

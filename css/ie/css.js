@@ -11,7 +11,7 @@ Then in your normal stylesheet, you could just do:
 
 Include it in your HTML like so:
 
-	<script src="/css/ie/css.js" type="text/javascript"></script>
+	<!--[if lte IE 6]><script src="/css/ie/css.js" type="text/javascript"></script><![endif]-->
 */
 
 $(function() {

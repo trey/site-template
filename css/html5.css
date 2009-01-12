@@ -1,15 +1,1 @@
-header
-{
-}
-article
-{
-}
-section
-{
-}
-aside
-{
-}
-footer
-{
-}
+section, header, footer, nav, article, aside { display: block; }

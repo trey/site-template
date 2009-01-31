@@ -1,69 +1,68 @@
 @import url(reset.css);
+/* HTML 5 support is easy: */
+section, header, footer, nav, article, aside { display: block; }
 
+/* ------
+   Blocks
+   ------ */
 body {
 	font: 14px "Gill Sans", Helvetica, sans-serif;
 	padding-bottom: 40px; /* Let the footer breathe. */
 }
 #wrapper {
 }
-
 #header {
 }
-
 #main {
 }
-
-/* -------------- */
-/* Primary Column */
-/* -------------- */
 #primary {
 }
-
-/* ---------------- */
-/* Secondary Column */
-/* ---------------- */
 #secondary {
 }
+#footer {
+}
 
-/* ------------------------------------- */
-/* Body Copy Style for Main Content Area */
-/* ------------------------------------- */
-#primary h1,
-#primary h2,
-#primary h3,
-#primary h4,
-#primary h5,
-#primary h6 {
+/* --------------------------------------------
+   Body copy style. Just add a class of 'copy'.
+   -------------------------------------------- */
+.copy h1,
+.copy h2,
+.copy h3,
+.copy h4,
+.copy h5,
+.copy h6 {
 	margin: 0 0 20px;
 	font-size: 20px;
 }
-#primary p { line-height: 1.4em; }
-#primary p,
-#primary ul,
-#primary ol { margin: 10px 0; }
-#primary li { margin-left: 20px; }
-#primary ul li { list-style: disc; }
-#primary ol li { list-style: decimal; }
-#primary blockquote {
+.copy p { line-height: 1.4em; }
+.copy p,
+.copy ul,
+.copy ol { margin: 10px 0; }
+.copy li { margin-left: 20px; }
+.copy ul li { list-style: disc; }
+.copy ol li { list-style: decimal; }
+.copy blockquote {
 	padding-left: 15px;
 	border-left: 2px solid #ccc;
 	color: #666;
 }
-
-#footer {
+span.amp {
+	/* http://simplebits.com/notebook/2008/08/14/ampersands.html */
+	font-family: Baskerville, Palatino, "Book Antiqua", serif;
+	font-style: italic;
 }
 
-/* ------------- */
-/* Misc. Helpers */
-/* ------------- */
+/* -------------
+   Misc. Helpers
+   ------------- */
 .center { text-align: center; }
 .right { float: right; }
 .left { float: left; }
 .clear { clear: both; }
 
-/* ----------------------------------------------------------- */
-/* Clearing Floats (add anything here to /css/ie/all.css also) */
-/* ----------------------------------------------------------- */
+/* -----------------------------------------------------------
+   Clearing Floats (add anything here to /css/ie/all.css also)
+   ----------------------------------------------------------- */
 #main:after,
 #primary:after,
 #secondary:after,

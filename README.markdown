@@ -16,19 +16,9 @@ Folder structure:
 	|   |-- img
 	|   |   |-- blt
 	|   |   `-- btn
-	|   |-- sass
-	|   |   |-- base
-	|   |   |   |-- copy.sass
-	|   |   |   |-- reset.sass
-	|   |   |   `-- shortcuts.sass
-	|   |   |-- site
-	|   |   |   |-- colors.sass
-	|   |   |   `-- main.sass
-	|   |   `-- screen.sass
 	|   |-- base.css
 	|   |-- html5.css
 	|   |-- reset.css
-	|   `-- screen.css
 	|-- img
 	|-- js
 	|   |-- load.js

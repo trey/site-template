@@ -1,7 +1,4 @@
 @import url(reset.css);
-/* HTML 5 support is easy: */
-section, header, footer, nav, article, aside { display: block; }
-
 /* ------
    Blocks
    ------ */

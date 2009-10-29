@@ -1,1 +1,0 @@
-Use [Sass](http://haml.hamptoncatlin.com/docs/rdoc/classes/Sass.html) no matter what language you're using by compiling out to CSS with [this TextMate Bundle](http://github.com/postpostmodern/sass-generator-tmbundle/).

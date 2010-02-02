@@ -1,0 +1,26 @@
+# Rename this file to your domain name (example.com) and put it in /etc/apache2/sites-available
+<VirtualHost *:80>
+
+	ServerName example.com
+	ServerAlias www.example.com
+	DocumentRoot /home/your-username/public_html/example.com/public
+
+	# No WWW
+	RewriteEngine On
+	RewriteCond %{HTTP_HOST} ^www\.example\.com$ [NC]
+	RewriteRule ^(.*)$ http://example.com$1 [R=301,L]
+
+	UseCanonicalName Off
+
+	CustomLog /home/your-username/public_html/example.com/log/access.log combined
+	ErrorLog /home/your-username/public_html/example.com/log/error.log
+
+	<Directory "/home/your-username/public_html/example.com/public">
+		Options FollowSymLinks
+		AllowOverride All
+		Order allow,deny
+		Allow from all
+		AcceptPathInfo On
+	</Directory>
+
+</VirtualHost>

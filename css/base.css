@@ -36,6 +36,10 @@ body {
 .copy p,
 .copy ul,
 .copy ol { margin: 10px 0; }
+.copy ul ul,
+.copy ol ol,
+.copy ol ul,
+.copy ul ol { margin: 0; }
 .copy li { margin-left: 20px; }
 .copy ul li { list-style: disc; }
 .copy ol li { list-style: decimal; }

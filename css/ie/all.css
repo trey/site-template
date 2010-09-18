@@ -1,9 +1,4 @@
 /* ------------
    "Has Layout"
    ------------ */
-#main,
-#primary,
-#secondary,
-.primary,
-.secondary,
-.floatclear { height: 1%; }
+section, .floatclear { height: 1%; }

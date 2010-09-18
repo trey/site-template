@@ -1,2 +1,14 @@
 # Don't allow directory browsing:
 Options -Indexes
+
+# Uncomment if you want to deal with removing www and adding 404s from this file.
+# -------------------------------------------------------------------------------
+# <IfModule mod_rewrite.c>
+# RewriteEngine on
+# RewriteBase /
+# 
+# # no-www
+# RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+# RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+# ErrorDocument 404 /404.html
+# </IfModule>

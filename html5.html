@@ -2,31 +2,56 @@
 <html lang="en" class="no-js">
 <head>
 	<meta charset="UTF-8">
-	<title>[Name of Site]</title>
+	<title>[Name of Page]</title>
 	<meta name="description" content="[ADD A DESCRIPTION OF THIS WEBSITE]">
-	<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/img/favicon.ico">
 	<link rel="stylesheet" href="/css/base.css" media="screen">
-	<link rel="stylesheet" href="/css/html5.css" media="all">
 	<link rel="alternate" type="application/atom+xml" title="[Name of Site Feed]" href="/feed/">
 	<!--[if lte IE 7]><link rel="stylesheet" href="/css/ie/all.css" media="screen"><![endif]-->
 	<!--[if lte IE 6]><link rel="stylesheet" href="/css/ie/6.css" media="screen"><![endif]-->
-	<script src="/js/firebugx.js"></script>
-	<script src="/js/jquery-1.4.2.min.js"></script>
 	<script src="/js/modernizr-1.5.min.js"></script>
+	<style>
+		body { padding: 20px; }
+		header h1 { font-size: 25px; }
+		section { margin: 10px 0; }
+		.right { padding: 0 10px; }
+	</style>
 </head>
 <body>
+	<!-- Sample content: -->
 	<header>
-		<h1>Title of Page</h1>
+		<h1>In the Beginning... Was the Command Line by Neal Stephenson</h1>
 	</header>
-	<section id="main" class="copy">
-		<article>
-			<aside>
-			</aside>
-		</article>
-	</section><!-- #main -->
+
+	<section class="copy">
+		<h1>Excerpt</h1>
+		<div class="right"><a href="http://www.amazon.com/dp/0380815931/?tag=trey-20"><img src="/img/itbwtcl.jpg" width="200" height="310" alt="In the Beginning... Was the Command Line cover"></a></div>
+		<blockquote>
+			<p>The analogy between cars and operating systems is not half bad, and so let me run with it for a moment, as a way of giving an executive summary of our situation today.</p>
+			<p>Imagine a crossroads where four competing auto dealerships are situated. One of them (Microsoft) is much, much bigger than the others. It started out years ago selling three-speed bicycles (MS-DOS); these were not perfect, but they worked, and when they broke you could easily fix them.</p>
+			<p>There was a competing bicycle dealership next door (Apple) that one day began selling motorized vehicles--expensive but attractively styled cars with their innards hermetically sealed, so that how they worked was something of a mystery.</p>
+			<p>The big dealership responded by rushing a moped upgrade kit (the original Windows) onto the market. This was a Rube Goldberg contraption that, when bolted onto a three-speed bicycle, enabled it to keep up, just barely, with Apple-cars. The users had to wear goggles and were always picking bugs out of their teeth while Apple owners sped along in hermetically sealed comfort, sneering out the windows. But the Micro-mopeds were cheap, and easy to fix compared with the Apple-cars, and their market share waxed.</p>
+		</blockquote>
+		<h2>What to do next</h2>
+		<ul>
+			<li><a href="http://www.amazon.com/dp/0380815931/?tag=trey-20">Buy it.</a></li>
+			<li><a href="http://www.cryptonomicon.com/beginning.html">Read it.</a></li>
+			<li><a href="http://garote.bdmonkeys.net/commandline/index.html">Read Garrett Birkel's updated 2004 edition</a></li>
+		</ul>
+		<h2>Reasons to read it</h2>
+		<ol>
+			<li>Great insights into the history of personal computing.</li>
+			<li>Learn why Linux is great (<a href="http://en.wikipedia.org/wiki/In_the_Beginning..._Was_the_Command_Line">even though Stephenson now uses OS X</a>).</li>
+		</ol>
+		<p>Anybody who works with computers should read this book.</p>
+	</section>
+
 	<footer>
 		<div id="copyright">Copyright &copy; [2010] [AUTHOR'S NAME].  All Rights Reserved.</div>
 	</footer>
+
+	<script src="/js/jquery-1.4.2.min.js"></script>
+	<script src="/js/firebugx.js"></script>
 	<script src="/js/site.js"></script>
 </body>
 </html>

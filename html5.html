@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> 
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
 	<meta charset="UTF-8">
 	<title>[Name of Page]</title>
@@ -9,7 +14,7 @@
 	<link rel="alternate" type="application/atom+xml" title="[Name of Site Feed]" href="/feed/">
 	<!--[if lte IE 7]><link rel="stylesheet" href="/css/ie/all.css" media="screen"><![endif]-->
 	<!--[if lte IE 6]><link rel="stylesheet" href="/css/ie/6.css" media="screen"><![endif]-->
-	<script src="/js/modernizr-1.5.min.js"></script>
+	<script src="/js/modernizr-1.6.min.js"></script>
 	<style>
 		body { padding: 20px; }
 		header h1 { font-size: 25px; }
@@ -18,7 +23,10 @@
 	</style>
 </head>
 <body>
-	<!-- Sample content: -->
+	<!-- ================== -->
+	<!-- = SAMPLE CONTENT = -->
+	<!-- ================== -->
+
 	<header>
 		<h1>In the Beginning... Was the Command Line by Neal Stephenson</h1>
 	</header>
@@ -49,6 +57,10 @@
 	<footer>
 		<div id="copyright">Copyright &copy; [2010] [AUTHOR'S NAME].  All Rights Reserved.</div>
 	</footer>
+
+	<!-- ========================= -->
+	<!-- = END OF SAMPLE CONTENT = -->
+	<!-- ========================= -->
 
 	<script src="/js/jquery-1.4.2.min.js"></script>
 	<script src="/js/firebugx.js"></script>

@@ -3,7 +3,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 /* IE Fixes */
 .ie6 section, .ie7 section, .ie8 section, .ie6 .floatclear, .ie7 .floatclear, .ie8 .floatclear { zoom: 1; }
-.ie6 .left, ie6 .right { display: inline; }
+.ie6 .left, .ie6 .right { display: inline; }
 
 body {
 	font: 14px "Helvetica Neue", Arial, sans-serif;

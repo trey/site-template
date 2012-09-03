@@ -1,0 +1,4 @@
+Inbox:
+	- Create a GitHub page.
+		Show the sample page content with "in the Beginning...".
+	- Add an automated build system like Guard.
